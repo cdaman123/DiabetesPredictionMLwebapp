@@ -7,6 +7,18 @@ body{
     background-position:center;
 }
 
+.row{display:flex;
+    justify-content:flex-start;
+    align-items:stretch;
+    flex-wrap:nowrap;
+    padding:10px;
+}
+.colom{
+    padding: 20px 50px;
+    flex-grow:1;
+    flex-basis:100%;
+    margin:0px 20px;
+}
 
 
 
@@ -21,14 +33,7 @@ body{
 .formbox{
     color: black;
     background: rgba(213, 52, 235,.3);
-    width : 50%;
-    margin :0% 25%;
-    align-self: center;
-    padding: 30px;
-    text-align: match-parent;
-    font-weight: bolder;
     font-size: larger;
-
 }
 
 
@@ -38,23 +43,19 @@ body{
     width: 100%;
     margin-bottom: 10px;
     margin-right: 10px;
+    background: white;
     border: black;
     border-bottom-style: solid;
     background: transparent;
-
-
-
 }
 
 .formbox input[type = "submit"]{
-    width: 30%;
+    width: 640px;
+    align-self: center;
     color: #ffffff;
     background: darkmagenta;
     font-weight: bold;
     border: darkmagenta;
-    margin-left: 70%;
-    height:30px;
-
 }
 #dsds{
     text-align: center;
