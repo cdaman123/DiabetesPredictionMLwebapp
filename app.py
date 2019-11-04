@@ -11,7 +11,7 @@ def p():
 def predict():
     name = [float(x) for x in request.form.values()]
     A = model.predict_proba([name])
-    r = "Probability that Patient have Diabetes is %0.2f"%A[0][1]
+    r = "Probability of  Diabetes for this User is %0.2f"%A[0][1]
     return render_template('index.html',result1 = r)
 
 if __name__ == "__main__":
